@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 550px;
+}
+
+button {
+    font-size: 25px;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
