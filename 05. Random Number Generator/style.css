@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Prevents padding from breaking width */
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    /* Rich, 3-color deep sea gradient */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    /* This creates a "Glass" look */
+    background: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+#count {
+    display: block;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* Linear gradient text for the number */
+    background: linear-gradient(to bottom, #fff, #888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {
+    background-color: #00d2ff; /* Bright blue contrast */
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+}
+
+button:hover {
+    background-color: #3a7bd5;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
