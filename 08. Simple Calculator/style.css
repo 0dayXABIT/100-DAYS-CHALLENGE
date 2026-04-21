@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto;
+}
+
+/* Background + Center */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Container (glass effect) */
+.container {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+h1 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Calculator box */
+.calculator {
+    width: 280px;
+}
+
+/* Display */
+#display {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: right;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+/* Buttons Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+/* Hover */
+.buttons button:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+/* Click */
+.buttons button:active {
+    transform: scale(0.95);
+}
+
+/* Operators (right side) */
+.buttons button:nth-child(4n) {
+    background: rgba(255, 165, 0, 0.8);
+}
+
+/* Equal button */
+.buttons button:nth-child(15) {
+    background: #4caf50;
+}
+
+/* Clear button (last row full width) */
+.buttons button:last-child {
+    grid-column: span 4;
+    background: #ff4d4d;
+}
