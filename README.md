@@ -11,8 +11,8 @@
 7. Character Counter [ Completed ]
 8. Simple Calculator [ Completed ]
 9. Tip Calculator [ Completed ]
-10. Digital Clock  
-11. Stop Watch  
+10. Digital Clock [ Completed ]
+11. Stop Watch  [ Completed ]
 12. Countdown Timer  
 13. Random Color Generator  
 14. BMI Calculator  
