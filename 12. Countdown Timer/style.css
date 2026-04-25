@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center screen + background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* Main card */
+.container {
+    width: 280px;
+    padding: 25px;
+    text-align: center;
+
+    border-radius: 15px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+    color: #fff;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 8px;
+
+    text-align: center;
+    font-size: 16px;
+
+    outline: none;
+}
+
+/* Display */
+.display {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+
+    border: none;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: white;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #00c9a7, #008f7a);
+
+    transition: 0.3s;
+}
+
+/* Hover */
+button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #00b894, #006f5f);
+}
+
+/* Click */
+button:active {
+    transform: scale(0.95);
+}
