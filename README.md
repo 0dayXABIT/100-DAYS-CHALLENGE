@@ -13,7 +13,7 @@
 9. Tip Calculator [ Completed ]
 10. Digital Clock [ Completed ]
 11. Stop Watch  [ Completed ]
-12. Countdown Timer  
+12. Countdown Timer  [ Completed ]
 13. Random Color Generator  
 14. BMI Calculator  
 15. Form Validator (multi-field)  
