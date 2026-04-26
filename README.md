@@ -14,7 +14,7 @@
 10. Digital Clock [ Completed ]
 11. Stop Watch  [ Completed ]
 12. Countdown Timer  [ Completed ]
-13. Random Color Generator  
+13. Random Color Generator [ Completed ] 
 14. BMI Calculator  
 15. Form Validator (multi-field)  
 16. Number Guessing Game  
