@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    /* A smooth linear gradient for the background */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border: none; /* Removed the thin black border for a cleaner look */
+}
+
+.box {
+    /* Soft border and rounded corners for the color display */
+    border: 4px solid white;
+    background-color: #ff416c; 
+    height: 150px;
+    width: 150px;
+    margin: 0 auto 30px auto;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1), 0 5px 15px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.1s, background-color 0.2s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    transform: scale(0.95); /* Button shrinks slightly when clicked */
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    text-transform: uppercase; 
+}
