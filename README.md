@@ -15,7 +15,7 @@
 11. Stop Watch  [ Completed ]
 12. Countdown Timer  [ Completed ]
 13. Random Color Generator [ Completed ] 
-14. BMI Calculator  
+14. BMI Calculator [ Completed ]
 15. Form Validator (multi-field)  
 16. Number Guessing Game  
 17. Temperature Converter  
