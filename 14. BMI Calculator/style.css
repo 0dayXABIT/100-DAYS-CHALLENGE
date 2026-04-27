@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 6px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.bmicalc {
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 24px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Ye result dikhane wala box hai */
+#display {
+    width: 100%;
+    background-color: #333;
+    color: yellowgreen;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: default;
+}
+
+/* Height aur Weight inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: yellowgreen;
+    background-color: #fffdec;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: yellowgreen;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #8db62f;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+/* Chrome, Safari, Edge, Opera se arrows hatane ke liye */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
