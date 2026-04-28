@@ -16,7 +16,7 @@
 12. Countdown Timer  [ Completed ]
 13. Random Color Generator [ Completed ] 
 14. BMI Calculator [ Completed ]
-15. Form Validator (multi-field)  
+15. Form Validator (multi-field) [Completed ]
 16. Number Guessing Game  
 17. Temperature Converter  
 18. Simple Quiz App  
