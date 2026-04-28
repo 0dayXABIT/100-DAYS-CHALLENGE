@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validiator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="register">
+            <form action="" method="get">
+                <h1>Create a Account</h1>
+                <input type="text" placeholder="username" id="username" required>
+                <span id="user"></span>
+                <input type="email" placeholder="Email" id="email" value="johndoe@gmail.com" required>
+                <input type="text" placeholder="Full Name" id="name" maxlength="20" required>
+                <input type="number" placeholder="phn no" id="number" maxlength="10" required>
+                <input type="text" placeholder="password" id="password" maxlength="20" required>
+                <button type="button" id="button">Create</button>
+            </form>
+        </div>
+        <script src="app.js"></script>
+</body>
+
+</html>

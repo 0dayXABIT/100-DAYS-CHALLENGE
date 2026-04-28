@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Prevents padding from breaking layout */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #ff4500; /* Orangered */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centers the form vertically */
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 400px; /* Limits width on desktop */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.register h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style for each input field */
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff4500; /* Highlights orange on click */
+}
+
+button {
+    width: 100%;
+    padding: 10px 16px; /* Chota padding */
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Zyada sharp corners */
+    font-size: 14px; /* Text size thoda kam */
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background-color: #e63e00;
+}
+
+button:active {
+    background-color: #cc3700;
+    transform: scale(0.98); /* Click hone par halka sa dabega */
+}
+
+#user {
+    font-size: 16px;
+    font: bold;
+}
