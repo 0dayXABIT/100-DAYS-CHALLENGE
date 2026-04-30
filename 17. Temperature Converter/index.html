@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="converter">
+            <h1>Temperature Converter</h1>
+            <input type="text" id="display" readonly>
+            <br> <input type="text" id="number" placeholder="Enter value eg: 30" required>
+            <!-- Dono ka name "unit" rakh diya hai -->
+            <br><input type="radio" name="unit" id="celcius">
+            <label for="celcius">Celsius</label>
+
+            <input type="radio" name="unit" id="farenheight">
+            <label for="farenheight">Fahrenheit</label>
+            <br> <button type="button">Convert</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
