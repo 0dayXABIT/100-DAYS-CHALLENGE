@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background: #f95959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.container {
+    font-size: 20px;
+    margin: 250px auto;
+    width: fit-content;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+
+.quizQuestions {
+    line-height: 60px;
+}
+
+.options {
+    padding: 10px;
+}
+
+button {
+    background: #222831;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    width: 100%;
+    border: none;
+    /* Default border hatane ke liye */
+    cursor: pointer;
+    /* Mouse le jaane par hand icon dikhega */
+    transition: all 0.3s ease;
+    /* Effect ko smooth banane ke liye */
+}
+
+button:hover {
+    background: #393e46;
+    /* Thoda light shade */
+    transform: translateY(-2px);
+    /* Button halka sa upar uthega */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* Halka shadow effect */
+}
+
+button:active {
+    transform: translateY(0);
+}
