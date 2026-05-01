@@ -19,7 +19,7 @@
 15. Form Validator (multi-field) [Completed ]
 16. Number Guessing Game [ Completed ] 
 17. Temperature Converter [ Completed ]
-18. Simple Quiz App
+18. Simple Quiz App [ Completed ]
 19. Toggle Dark/Light Mode
 20. Accordion UI
 
