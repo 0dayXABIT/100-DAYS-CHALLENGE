@@ -20,10 +20,9 @@
 16. Number Guessing Game [ Completed ] 
 17. Temperature Converter [ Completed ]
 18. Simple Quiz App [ Completed ]
-19. Toggle Dark/Light Mode
+19. Toggle Dark-Light Mode [ Completed ]
 20. Accordion UI
 
----
 
 ## 🌐 Phase 2: APIs & Data (Day 21–45)
 
