@@ -21,7 +21,7 @@
 17. Temperature Converter [ Completed ]
 18. Simple Quiz App [ Completed ]
 19. Toggle Dark-Light Mode [ Completed ]
-20. Accordion UI
+20. Accordion UI [ Completed ] 
 
 
 ## 🌐 Phase 2: APIs & Data (Day 21–45)
