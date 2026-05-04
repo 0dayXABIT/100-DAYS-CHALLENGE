@@ -26,7 +26,7 @@
 
 ## 🌐 Phase 2: APIs & Data (Day 21–45)
 
-21. Fetch Random User API  
+21. Fetch Random User API [ Completed ] 
 22. Weather App (API)  
 23. Joke Generator  
 24. Quote Generator  
